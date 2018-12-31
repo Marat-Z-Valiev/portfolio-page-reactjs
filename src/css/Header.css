@@ -1,0 +1,24 @@
+.container {
+  background-color: #4594a4;
+  font-size: 1.2em;
+}
+.container h1 {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.container .menu {
+  display: flex;
+  justify-content: space-between;
+}
+.container .menu .menu-right {
+  display: flex;
+  align-items: center;
+}
+.container .menu-list .menu-list-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.container .menu-list .menu-list-item:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
