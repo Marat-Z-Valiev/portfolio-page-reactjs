@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import Header from "./Header";
+import Banner from "./Banner";
+import About from "./About";
 
 class App extends Component {
 	render() {
@@ -9,7 +11,17 @@ class App extends Component {
 			{label: "Projects", link: "#projects"},
 			{label: "Contact", link: "#contact"}
 		];
-		return <Header links={links} />;
+		return (
+			<div>
+				<Header links={links} />
+				<section>
+					<Banner bannerText="Portfolio" />
+				</section>
+				<section>
+					<About about="About" />
+				</section>
+			</div>
+		);
 	}
 }
 

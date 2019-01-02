@@ -1,5 +1,6 @@
 import React from "react";
-import "../css/Header.css";
+import PropTypes from "prop-types";
+import "../css/header.css";
 
 class Header extends React.Component {
 	render() {
@@ -12,7 +13,7 @@ class Header extends React.Component {
 			);
 		});
 		return (
-			<div className="container">
+			<div className="navbar-container">
 				<nav className="menu">
 					<h1>Marat Valiev</h1>
 					<div className="menu-right">
@@ -23,5 +24,9 @@ class Header extends React.Component {
 		);
 	}
 }
+
+Header.propTypes = {
+	linksMarkup: PropTypes.array
+};
 
 export default Header;
