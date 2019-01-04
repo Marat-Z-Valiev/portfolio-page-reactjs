@@ -3,18 +3,50 @@ import PropTypes from "prop-types";
 import "../css/header.css";
 
 class Header extends React.Component {
+	constructor(props) {
+		super(props);
+		this.handleScroll = this.handleScroll.bind(this);
+		this.state = {
+			isSticky: false
+		};
+	}
+	componentDidMount() {
+		window.addEventListener("scroll", this.handleScroll);
+	}
+
+	componentWillUnmount() {
+		window.removeEventListener("scroll", this.handleScroll);
+	}
+
+	handleScroll() {
+		if (window.pageYOffset > this.nav.offsetTop) {
+			this.setState({
+				isSticky: true
+			});
+		} else {
+			this.setState({
+				isSticky: false
+			});
+		}
+	}
+
 	render() {
+		const stickyClass = this.state.isSticky ? "sticky" : "";
 		const linksMarkup = this.props.links.map((link, index) => {
 			return (
-				<li className="menu-list-item" key={index}>
-					<a href={link.link} />
-					{link.label}
-				</li>
+				<a href={link.link} key={index}>
+					<li className="menu-list-item">{link.label}</li>
+				</a>
 			);
 		});
 		return (
-			<div className="navbar-container">
-				<nav className="menu">
+			<div className={`navbar-container ${stickyClass}`}>
+				<nav
+					className="menu"
+					ref={elem => {
+						this.nav = elem;
+					}}
+				>
 					<h1>Marat Valiev</h1>
 					<div className="menu-right">
 						<ul className="menu-list">{linksMarkup}</ul>
