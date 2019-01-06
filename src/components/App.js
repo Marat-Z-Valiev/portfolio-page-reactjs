@@ -1,9 +1,10 @@
-import React, {Component} from "react";
+import React from "react";
 import Header from "./Header";
 import Banner from "./Banner";
 import About from "./About";
+import Projects from "./Projects";
 
-class App extends Component {
+class App extends React.Component {
 	render() {
 		const links = [
 			{label: "Home", link: "#home"},
@@ -14,12 +15,9 @@ class App extends Component {
 		return (
 			<div>
 				<Header links={links} />
-				<section>
-					<Banner bannerText="Portfolio" />
-				</section>
-				<section>
-					<About about="About" />
-				</section>
+				<Banner />
+				<About />
+				<Projects />
 			</div>
 		);
 	}
