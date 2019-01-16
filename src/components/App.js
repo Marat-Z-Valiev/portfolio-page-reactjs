@@ -3,7 +3,8 @@ import Header from "./Header";
 import Banner from "./Banner";
 import About from "./About";
 import Projects from "./Projects";
-
+import Footer from "./Footer";
+import footerLinks from "../footerLinks";
 class App extends React.Component {
 	render() {
 		const links = [
@@ -18,6 +19,7 @@ class App extends React.Component {
 				<Banner />
 				<About />
 				<Projects />
+				<Footer footerLinks={footerLinks} />
 			</div>
 		);
 	}

@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import projects from "../projects";
-import "../css/projectItem.css";
+import "../css/Projects/ProjectItem/projectItem.css";
 
 class ProjectItem extends React.Component {
 	render() {

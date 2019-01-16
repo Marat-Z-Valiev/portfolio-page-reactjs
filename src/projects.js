@@ -15,7 +15,7 @@ const projects = {
 		description:
 			"project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
 		tools: "Bootstrap, Javascript, jQuery",
-		image: "/images/Wikipedia_viewer.jpg",
+		image: "/images/Local_weather_page.jpg",
 		websiteLink: "https://marat-z-valiev.github.io/Local_weather_page/",
 		globeIcon: "fa fa-globe fa-2x",
 		githubLink: "https://github.com/Marat-Z-Valiev/Local_weather_page",

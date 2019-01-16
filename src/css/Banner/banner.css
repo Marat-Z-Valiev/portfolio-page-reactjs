@@ -1,5 +1,5 @@
 .top-section {
-  background: url("images/Background_image.jpg") no-repeat center center / cover fixed;
+  background: url("../images/Background_image.jpg") no-repeat center center / cover fixed;
   height: 560px;
   position: relative;
 }

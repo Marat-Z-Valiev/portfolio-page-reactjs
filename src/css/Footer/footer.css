@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+.contact {
+  background-color: #4594A4;
+  text-align: center;
+  padding: 70px;
+}
+.contact a {
+  color: #000000;
+}
+.contact .icon-btn {
+  font-size: 40px;
+  text-indent: 30px;
+}
+.contact .linkedin-icon:hover {
+  color: #0E09AD;
+}
+.contact .mail-icon:hover {
+  color: #47FFF3;
+}
+.contact .github-icon:hover {
+  color: #83C217;
+}
+.contact .copyright {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.contact .copyright span {
+  font-family: "Ubuntu", LtBrown, serif;
+  font-size: 1.3em;
+}
+.contact .icons p:last-of-type {
+  font-size: 1.5em;
+}
+.contact .github-link {
+  text-decoration: none;
+}
+.contact .github-link:hover {
+  color: #7AD1FF;
+}

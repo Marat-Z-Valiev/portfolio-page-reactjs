@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../css/banner.css";
+import "../css/Banner/banner.css";
 
 const Banner = props => (
 	<section>
