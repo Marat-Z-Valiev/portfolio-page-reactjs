@@ -7,15 +7,9 @@ import Footer from "./Footer";
 import footerLinks from "../footerLinks";
 class App extends React.Component {
 	render() {
-		const links = [
-			{label: "Home", link: "#home"},
-			{label: "About", link: "#about"},
-			{label: "Projects", link: "#projects"},
-			{label: "Contact", link: "#contact"}
-		];
 		return (
 			<div>
-				<Header links={links} />
+				<Header />
 				<Banner />
 				<About />
 				<Projects />
