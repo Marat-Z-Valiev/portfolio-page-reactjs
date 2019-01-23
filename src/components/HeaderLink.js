@@ -1,11 +1,22 @@
 import React from "react";
-
-const HeaderLink = props => (
-	<a href={this.props.link.link}>
-		<li className={`menu-list-item ${this.props.activeLink}`}>
-			{this.props.link.label}
-		</li>
-	</a>
-);
+import {Link} from "react-scroll";
+class HeaderLink extends React.Component {
+	render() {
+		return (
+			<li className="menu-list-item">
+				<Link
+					activeClass="active"
+					to={this.props.link}
+					spy={true}
+					smooth={true}
+					offset={-80}
+					duration={500}
+				>
+					{this.props.label}
+				</Link>
+			</li>
+		);
+	}
+}
 
 export default HeaderLink;

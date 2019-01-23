@@ -18,7 +18,10 @@
   display: inline-block;
   margin-right: 20px;
 }
-.navbar-container .menu-list .menu-list-item:hover {
+.navbar-container .menu-list a {
+  text-decoration: none;
+}
+.navbar-container .menu-list a:hover {
   color: #ffffff;
   cursor: pointer;
 }

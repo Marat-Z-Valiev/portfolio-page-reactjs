@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 .projects-header h2 {
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
 }

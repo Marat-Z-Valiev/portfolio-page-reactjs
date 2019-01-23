@@ -1,4 +1,5 @@
 import React from "react";
+import {animateScroll as scroll} from "react-scroll";
 import "../footerLinks";
 import "../css/Footer/footer.css";
 
@@ -13,6 +14,10 @@ class Footer extends React.Component {
 		this.displayCurrentYear();
 	}
 
+	scrollToTop = () => {
+		scroll.scrollToTop();
+	};
+
 	render() {
 		const {
 			linkedInLink,
@@ -25,6 +30,7 @@ class Footer extends React.Component {
 
 		return (
 			<div id="contact" className="contact">
+				<h2>Contact</h2>
 				<div className="footer-container">
 					<div className="icons">
 						<a
@@ -67,6 +73,11 @@ class Footer extends React.Component {
 						</p>
 					</div>
 				</div>
+				<i
+					onClick={this.scrollToTop}
+					className="fa fa-arrow-circle-up fa-4x scrollToTop"
+					aria-hidden="true"
+				/>
 			</div>
 		);
 	}

@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import HeaderLink from "./HeaderLink";
 import headerLinks from "../headerLinks";
 import "../css/Header/header.css";
 
@@ -7,14 +8,9 @@ class Header extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			isSticky: false,
-			active: ""
+			isSticky: false
 		};
 	}
-
-	handleClick = link => {
-		this.setState({active: link});
-	};
 
 	componentDidMount() {
 		window.addEventListener("scroll", this.handleScroll);
@@ -38,19 +34,6 @@ class Header extends React.Component {
 
 	render() {
 		const stickyClass = this.state.isSticky ? "sticky" : "";
-		const linksMarkup = headerLinks.map((link, index) => {
-			return (
-				<a
-					href={link.link}
-					key={index}
-					className={this.state.active === link ? "active" : ""}
-				>
-					<li className="menu-list-item" onClick={() => this.handleClick(link)}>
-						{link.label}
-					</li>
-				</a>
-			);
-		});
 		return (
 			<div className={`navbar-container ${stickyClass}`}>
 				<nav
@@ -61,7 +44,15 @@ class Header extends React.Component {
 				>
 					<h1>Marat Valiev</h1>
 					<div className="menu-right">
-						<ul className="menu-list">{linksMarkup}</ul>
+						<ul className="menu-list">
+							{headerLinks.map((menuItem, index) => (
+								<HeaderLink
+									key={index}
+									link={menuItem.link}
+									label={menuItem.label}
+								/>
+							))}
+						</ul>
 					</div>
 				</nav>
 			</div>

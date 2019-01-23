@@ -4,7 +4,7 @@ import "../css/Banner/banner.css";
 
 const Banner = props => (
 	<section>
-		<div className="jumbotron top-section" id="home">
+		<div className="top-section" id="home">
 			<div className="welcome">
 				<h2>Portfolio</h2>
 				<i className="fa fa-code" aria-hidden="true" />

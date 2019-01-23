@@ -4,6 +4,11 @@
   text-align: center;
   padding: 70px;
 }
+.contact h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .contact a {
   color: #000000;
 }
@@ -36,4 +41,11 @@
 }
 .contact .github-link:hover {
   color: #7AD1FF;
+}
+.scrollToTop {
+  border-radius: 30px;
+}
+.scrollToTop:hover {
+  color: #ffffff;
+  cursor: pointer;
 }
