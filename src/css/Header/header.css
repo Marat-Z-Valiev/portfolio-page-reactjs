@@ -1,31 +1,27 @@
-.navbar-container {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #4594a4;
   font-size: 1.2em;
+  height: 80px;
 }
-.navbar-container h1 {
+.navbar h1 {
   color: #ffffff;
   margin-left: 10px;
 }
-.navbar-container .menu {
-  display: flex;
-  justify-content: space-between;
-}
-.navbar-container .menu .menu-right {
-  display: flex;
-  align-items: center;
-}
-.navbar-container .menu-list .menu-list-item {
+.navbar .menu-list .menu-list-item {
   display: inline-block;
   margin-right: 20px;
 }
-.navbar-container .menu-list a {
+.navbar .menu-list a {
   text-decoration: none;
 }
-.navbar-container .menu-list a:hover {
+.navbar .menu-list a:hover {
   color: #ffffff;
   cursor: pointer;
 }
-.navbar-container .menu-list .active {
+.navbar .menu-list .active {
   color: #ffffff;
 }
 .sticky {

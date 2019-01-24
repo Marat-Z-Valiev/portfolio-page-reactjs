@@ -5,14 +5,14 @@ import "../css/Projects/projects.css";
 class Projects extends React.Component {
 	render() {
 		return (
-			<div id="projects" className="projects">
-				<section className="projects-header">
+			<section className="projects-header">
+				<div id="projects" className="projects">
 					<h2>Projects</h2>
 					<div className="grid-container">
 						<ProjectItem />
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 		);
 	}
 }

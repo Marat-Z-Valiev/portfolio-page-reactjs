@@ -35,27 +35,23 @@ class Header extends React.Component {
 	render() {
 		const stickyClass = this.state.isSticky ? "sticky" : "";
 		return (
-			<div className={`navbar-container ${stickyClass}`}>
-				<nav
-					className="menu"
-					ref={elem => {
-						this.nav = elem;
-					}}
-				>
-					<h1>Marat Valiev</h1>
-					<div className="menu-right">
-						<ul className="menu-list">
-							{headerLinks.map((menuItem, index) => (
-								<HeaderLink
-									key={index}
-									link={menuItem.link}
-									label={menuItem.label}
-								/>
-							))}
-						</ul>
-					</div>
-				</nav>
-			</div>
+			<nav
+				className={`navbar ${stickyClass}`}
+				ref={elem => {
+					this.nav = elem;
+				}}
+			>
+				<h1>Marat Valiev</h1>
+				<ul className="menu-list">
+					{headerLinks.map((menuItem, index) => (
+						<HeaderLink
+							key={index}
+							link={menuItem.link}
+							label={menuItem.label}
+						/>
+					))}
+				</ul>
+			</nav>
 		);
 	}
 }
