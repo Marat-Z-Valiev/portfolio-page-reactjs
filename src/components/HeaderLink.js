@@ -3,7 +3,7 @@ import {Link} from "react-scroll";
 class HeaderLink extends React.Component {
 	render() {
 		return (
-			<li className="menu-list-item">
+			<li className="nav-list-item">
 				<Link
 					activeClass="active"
 					to={this.props.link}

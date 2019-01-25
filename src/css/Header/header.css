@@ -10,18 +10,18 @@
   color: #ffffff;
   margin-left: 10px;
 }
-.navbar .menu-list .menu-list-item {
+.navbar .nav-list .nav-list-item {
   display: inline-block;
   margin-right: 20px;
 }
-.navbar .menu-list a {
+.navbar .nav-list a {
   text-decoration: none;
 }
-.navbar .menu-list a:hover {
+.navbar .nav-list a:hover {
   color: #ffffff;
   cursor: pointer;
 }
-.navbar .menu-list .active {
+.navbar .nav-list .active {
   color: #ffffff;
 }
 .sticky {

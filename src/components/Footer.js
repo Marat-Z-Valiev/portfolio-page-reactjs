@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {animateScroll as scroll} from "react-scroll";
 import "../footerLinks";
 import "../css/Footer/footer.css";
@@ -82,4 +83,8 @@ class Footer extends React.Component {
 		);
 	}
 }
+
+Footer.propTypes = {
+	footerLinks: PropTypes.object
+};
 export default Footer;

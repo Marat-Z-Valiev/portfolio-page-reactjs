@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import HeaderLink from "./HeaderLink";
 import headerLinks from "../headerLinks";
 import "../css/Header/header.css";
@@ -42,7 +41,7 @@ class Header extends React.Component {
 				}}
 			>
 				<h1>Marat Valiev</h1>
-				<ul className="menu-list">
+				<ul className="nav-list">
 					{headerLinks.map((menuItem, index) => (
 						<HeaderLink
 							key={index}
@@ -55,9 +54,5 @@ class Header extends React.Component {
 		);
 	}
 }
-
-Header.propTypes = {
-	linksMarkup: PropTypes.array
-};
 
 export default Header;

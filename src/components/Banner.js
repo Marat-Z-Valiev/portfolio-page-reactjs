@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "../css/Banner/banner.css";
 
 const Banner = props => (
@@ -12,9 +11,5 @@ const Banner = props => (
 		</div>
 	</section>
 );
-
-Banner.propTypes = {
-	bannerText: PropTypes.string
-};
 
 export default Banner;

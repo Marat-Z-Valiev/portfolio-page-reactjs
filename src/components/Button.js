@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../css/Button/button.css";
 
 class Button extends React.Component {
@@ -17,5 +18,11 @@ class Button extends React.Component {
 		);
 	}
 }
+
+Button.propTypes = {
+	link: PropTypes.string,
+	icon: PropTypes.string,
+	label: PropTypes.string
+};
 
 export default Button;
