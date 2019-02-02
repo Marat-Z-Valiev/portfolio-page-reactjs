@@ -5,11 +5,26 @@ import About from "./About";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import footerLinks from "../footerLinks";
+import MobileMenu from "./MobileMenu";
 class App extends React.Component {
+	state = {
+		mobileMenuVisible: false
+	};
+
+	toggleMobileMenu = () => {
+		this.setState({
+			mobileMenuVisible: !this.state.mobileMenuVisible
+		});
+	};
 	render() {
 		return (
 			<div>
-				<Header />
+				<Header toggleMobileMenu={this.toggleMobileMenu} />
+				{this.state.mobileMenuVisible ? (
+					<MobileMenu show={this.state.mobileMenuVisible} />
+				) : (
+					""
+				)}
 				<Banner />
 				<About />
 				<Projects />

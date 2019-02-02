@@ -33,6 +33,7 @@ class Header extends React.Component {
 
 	render() {
 		const stickyClass = this.state.isSticky ? "sticky" : "";
+
 		return (
 			<nav
 				className={`navbar ${stickyClass}`}
@@ -41,6 +42,12 @@ class Header extends React.Component {
 				}}
 			>
 				<h1>Marat Valiev</h1>
+				<button
+					className="hamburger-button"
+					onClick={this.props.toggleMobileMenu}
+				>
+					<i className="fa fa-bars fa-3x" />
+				</button>
 				<ul className="nav-list">
 					{headerLinks.map((menuItem, index) => (
 						<HeaderLink

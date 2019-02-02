@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {Link} from "react-scroll";
 class HeaderLink extends React.Component {
 	render() {
@@ -18,5 +19,9 @@ class HeaderLink extends React.Component {
 		);
 	}
 }
+
+HeaderLink.propTypes = {
+	label: PropTypes.string
+};
 
 export default HeaderLink;
