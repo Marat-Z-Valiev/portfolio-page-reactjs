@@ -8,7 +8,7 @@ import footerLinks from "../footerLinks";
 import MobileMenu from "./MobileMenu";
 class App extends React.Component {
 	state = {
-		mobileMenuVisible: false
+		isMobileMenuVisible: false
 	};
 
 	toggleMobileMenu = () => {
@@ -16,15 +16,12 @@ class App extends React.Component {
 			mobileMenuVisible: !this.state.mobileMenuVisible
 		});
 	};
+
 	render() {
 		return (
 			<div>
 				<Header toggleMobileMenu={this.toggleMobileMenu} />
-				{this.state.mobileMenuVisible ? (
-					<MobileMenu show={this.state.mobileMenuVisible} />
-				) : (
-					""
-				)}
+				<MobileMenu visible={this.state.mobileMenuVisible} />
 				<Banner />
 				<About />
 				<Projects />

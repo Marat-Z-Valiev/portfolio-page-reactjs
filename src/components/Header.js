@@ -20,11 +20,15 @@ class Header extends React.Component {
 	}
 
 	handleScroll = () => {
-		if (window.pageYOffset > this.nav.offsetTop) {
+		if (window.pageYOffset >= this.nav.offsetTop) {
+			document.getElementById("root").style.marginTop = `${
+				document.querySelector(".navbar").offsetHeight
+			}px`;
 			this.setState({
 				isSticky: true
 			});
 		} else {
+			document.getElementById("root").style.marginTop = 0;
 			this.setState({
 				isSticky: false
 			});

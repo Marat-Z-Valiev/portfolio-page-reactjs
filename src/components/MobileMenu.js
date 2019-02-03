@@ -5,8 +5,9 @@ import "../css/MobileMenu/mobileMenu.css";
 
 class MobileMenu extends React.Component {
 	render() {
+		const openClass = this.props.visible ? "open" : "";
 		return (
-			<nav className="navbar-mobile">
+			<nav className={`mobile-menu ${openClass}`}>
 				<ul className="nav-list-mobile">
 					{headerLinks.map((menuItem, index) => (
 						<HeaderLink
