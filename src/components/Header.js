@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import HeaderLink from "./HeaderLink";
 import headerLinks from "../headerLinks";
 import "../css/Header/header.css";
@@ -65,5 +66,9 @@ class Header extends React.Component {
 		);
 	}
 }
+
+Header.propTypes = {
+	toggleMobileMenu: PropTypes.func
+};
 
 export default Header;

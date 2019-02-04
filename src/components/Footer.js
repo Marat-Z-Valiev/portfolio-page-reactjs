@@ -5,6 +5,16 @@ import "../footerLinks";
 import "../css/Footer/footer.css";
 
 class Footer extends React.Component {
+	static propTypes = {
+		footerLinks: PropTypes.shape({
+			linkedInLink: PropTypes.string,
+			linkedInIcon: PropTypes.string,
+			githubLink: PropTypes.string,
+			githubIcon: PropTypes.string,
+			mailLink: PropTypes.string,
+			mailIcon: PropTypes.string
+		})
+	};
 	displayCurrentYear() {
 		document.getElementById(
 			"currentYear"

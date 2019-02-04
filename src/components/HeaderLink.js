@@ -22,7 +22,8 @@ class HeaderLink extends React.Component {
 }
 
 HeaderLink.propTypes = {
-	label: PropTypes.string
+	label: PropTypes.string,
+	closeMenu: PropTypes.func
 };
 
 export default HeaderLink;

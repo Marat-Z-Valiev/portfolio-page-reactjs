@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import HeaderLink from "./HeaderLink";
 import headerLinks from "../headerLinks";
 import "../css/MobileMenu/mobileMenu.css";
@@ -26,5 +27,9 @@ class MobileMenu extends React.Component {
 		);
 	}
 }
+
+MobileMenu.propTypes = {
+	visible: PropTypes.bool
+};
 
 export default MobileMenu;

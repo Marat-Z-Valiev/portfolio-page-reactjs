@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Header";
+import MobileMenu from "./MobileMenu";
 import Banner from "./Banner";
 import About from "./About";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import footerLinks from "../footerLinks";
-import MobileMenu from "./MobileMenu";
 class App extends React.Component {
 	state = {
 		isMobileMenuVisible: false
@@ -13,7 +13,7 @@ class App extends React.Component {
 
 	toggleMobileMenu = () => {
 		this.setState({
-			mobileMenuVisible: !this.state.mobileMenuVisible
+			isMobileMenuVisible: !this.state.isMobileMenuVisible
 		});
 	};
 
@@ -22,7 +22,7 @@ class App extends React.Component {
 			<div>
 				<Header toggleMobileMenu={this.toggleMobileMenu} />
 				<MobileMenu
-					visible={this.state.mobileMenuVisible}
+					visible={this.state.isMobileMenuVisible}
 					closeMenu={this.closeMenu}
 				/>
 				<Banner />
