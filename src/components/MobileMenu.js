@@ -4,6 +4,10 @@ import headerLinks from "../headerLinks";
 import "../css/MobileMenu/mobileMenu.css";
 
 class MobileMenu extends React.Component {
+	closeMenu = () => {
+		document.querySelector(".hamburger-button").click();
+	};
+
 	render() {
 		const openClass = this.props.visible ? "open" : "";
 		return (
@@ -14,6 +18,7 @@ class MobileMenu extends React.Component {
 							key={index}
 							link={menuItem.link}
 							label={menuItem.label}
+							closeMenu={this.closeMenu}
 						/>
 					))}
 				</ul>

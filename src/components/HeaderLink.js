@@ -12,6 +12,7 @@ class HeaderLink extends React.Component {
 					smooth={true}
 					offset={-80}
 					duration={500}
+					onClick={this.props.closeMenu}
 				>
 					{this.props.label}
 				</Link>

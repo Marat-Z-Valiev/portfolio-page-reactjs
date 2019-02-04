@@ -21,7 +21,10 @@ class App extends React.Component {
 		return (
 			<div>
 				<Header toggleMobileMenu={this.toggleMobileMenu} />
-				<MobileMenu visible={this.state.mobileMenuVisible} />
+				<MobileMenu
+					visible={this.state.mobileMenuVisible}
+					closeMenu={this.closeMenu}
+				/>
 				<Banner />
 				<About />
 				<Projects />
