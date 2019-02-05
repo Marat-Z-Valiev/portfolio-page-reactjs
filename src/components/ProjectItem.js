@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Button from "./Button";
 import "../css/Projects/ProjectItem/projectItem.css";
 
@@ -34,4 +35,14 @@ class ProjectItem extends React.Component {
 		);
 	}
 }
+ProjectItem.propTypes = {
+	name: PropTypes.string,
+	description: PropTypes.string,
+	tools: PropTypes.string,
+	image: PropTypes.string,
+	websiteLink: PropTypes.string,
+	globeIcon: PropTypes.string,
+	githubLink: PropTypes.string,
+	githubIcon: PropTypes.string
+};
 export default ProjectItem;
