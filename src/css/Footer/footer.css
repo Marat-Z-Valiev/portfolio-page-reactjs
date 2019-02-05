@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 .contact {
-  background-color: #4594A4;
+  background-color: #4594a4;
   text-align: center;
   padding: 70px;
+}
+.contact .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: 580px;
 }
 .contact h2 {
   font-size: 2rem;
@@ -14,16 +20,15 @@
 }
 .contact .icon-btn {
   font-size: 40px;
-  text-indent: 30px;
 }
 .contact .linkedin-icon:hover {
-  color: #0E09AD;
+  color: #0e09ad;
 }
 .contact .mail-icon:hover {
-  color: #47FFF3;
+  color: #47fff3;
 }
 .contact .github-icon:hover {
-  color: #83C217;
+  color: #83c217;
 }
 .contact .copyright {
   font-weight: bold;
@@ -40,7 +45,13 @@
   text-decoration: none;
 }
 .contact .github-link:hover {
-  color: #7AD1FF;
+  color: #7ad1ff;
+}
+.footer {
+  display: grid;
+}
+.footer .footer-text {
+  font-size: 1.3rem;
 }
 .scrollToTop {
   border-radius: 30px;

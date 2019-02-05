@@ -21,7 +21,8 @@ class Header extends React.Component {
 	}
 
 	handleScroll = () => {
-		if (window.pageYOffset >= this.nav.offsetTop) {
+		const navbar = document.querySelector(".navbar");
+		if (window.pageYOffset > navbar.offsetTop) {
 			document.getElementById("root").style.marginTop = `${
 				document.querySelector(".navbar").offsetHeight
 			}px`;
@@ -40,12 +41,7 @@ class Header extends React.Component {
 		const stickyClass = this.state.isSticky ? "sticky" : "";
 
 		return (
-			<nav
-				className={`navbar ${stickyClass}`}
-				ref={elem => {
-					this.nav = elem;
-				}}
-			>
+			<nav className={`navbar ${stickyClass}`}>
 				<h1>Marat Valiev</h1>
 				<button
 					className="hamburger-button"

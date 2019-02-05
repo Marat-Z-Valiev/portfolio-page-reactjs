@@ -1,65 +1,78 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @main-font: "Ubuntu", LtBrown, serif;
 .contact {
-    background-color: #4594A4;
-    text-align: center;
-    padding: 70px;
+	background-color: #4594a4;
+	text-align: center;
+	padding: 70px;
 
-    h2{
-      font-size: 2rem;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-  
-    a {
-      color: #000000;
-    }
-  
-    .icon-btn {
-      font-size: 40px;
-      text-indent: 30px;
-    }
-  
-    .linkedin-icon:hover {
-      color: #0E09AD;
-    }
-  
-    .mail-icon:hover {
-      color: #47FFF3;
-    }
-  
-    .github-icon:hover {
-      color: #83C217;
-    }
-  
-    .copyright {
-      font-weight: bold;
-      margin-top: 30px;
-  
-      span{
-      font-family: @main-font;
-      font-size: 1.3em;
-      }
-    }
-  
-    .icons p:last-of-type{
-      font-size: 1.5em;
-    }
-  
-    .github-link{
-      text-decoration: none;
-  
-      &:hover{
-        color: #7AD1FF;
-      }
-    }
+	.icons {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin: 0 auto;
+		max-width: 580px;
+	}
+
+	h2 {
+		font-size: 2rem;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	a {
+		color: #000000;
+	}
+
+	.icon-btn {
+		font-size: 40px;
+	}
+
+	.linkedin-icon:hover {
+		color: #0e09ad;
+	}
+
+	.mail-icon:hover {
+		color: #47fff3;
+	}
+
+	.github-icon:hover {
+		color: #83c217;
+	}
+
+	.copyright {
+		font-weight: bold;
+		margin-top: 30px;
+
+		span {
+			font-family: @main-font;
+			font-size: 1.3em;
+		}
+	}
+
+	.icons p:last-of-type {
+		font-size: 1.5em;
+	}
+
+	.github-link {
+		text-decoration: none;
+
+		&:hover {
+			color: #7ad1ff;
+		}
+	}
 }
 
-.scrollToTop{
-  border-radius: 30px;
-  &:hover{
-    color: #ffffff;
-    cursor: pointer;
-  }
+.footer {
+	display: grid;
+
+	.footer-text {
+		font-size: 1.3rem;
+	}
 }
 
+.scrollToTop {
+	border-radius: 30px;
+	&:hover {
+		color: #ffffff;
+		cursor: pointer;
+	}
+}
