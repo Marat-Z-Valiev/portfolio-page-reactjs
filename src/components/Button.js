@@ -4,7 +4,7 @@ import "../css/Button/button.css";
 
 class Button extends React.Component {
 	handleClick(props) {
-		window.open(props, "_blank").opener = null;
+		window.open(props, "_blank");
 	}
 	render() {
 		return (
