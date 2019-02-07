@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
+*:focus {
+  outline: solid 2px #aa2626;
+}
 body {
   margin: 0;
   padding: 0;

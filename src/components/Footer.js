@@ -5,16 +5,6 @@ import "../footerLinks";
 import "../css/Footer/footer.css";
 
 class Footer extends React.Component {
-	static propTypes = {
-		footerLinks: PropTypes.shape({
-			linkedInLink: PropTypes.string,
-			linkedInIcon: PropTypes.string,
-			githubLink: PropTypes.string,
-			githubIcon: PropTypes.string,
-			mailLink: PropTypes.string,
-			mailIcon: PropTypes.string
-		})
-	};
 	displayCurrentYear() {
 		document.getElementById(
 			"currentYear"
@@ -49,7 +39,7 @@ class Footer extends React.Component {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<i className={linkedInIcon} aria-hidden="true" />
+						<i className={linkedInIcon} aria-label="Link to linkedIn profile" />
 					</a>
 					<a
 						className="icon-btn github-icon"
@@ -57,14 +47,14 @@ class Footer extends React.Component {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<i className={githubIcon} aria-hidden="true" />
+						<i className={githubIcon} aria-label="Link to GitHub profile" />
 					</a>
 					<a
 						className="icon-btn mail-icon"
 						href={mailLink}
 						rel="noopener noreferrer"
 					>
-						<i className={mailIcon} aria-hidden="true" />
+						<i className={mailIcon} aria-label="Link to send email" />
 					</a>
 				</div>
 				<div className="footer">
@@ -85,7 +75,7 @@ class Footer extends React.Component {
 				<i
 					onClick={this.scrollToTop}
 					className="fa fa-arrow-circle-up fa-4x scrollToTop"
-					aria-hidden="true"
+					aria-label="Button to scroll to top"
 				/>
 			</div>
 		);
@@ -93,6 +83,13 @@ class Footer extends React.Component {
 }
 
 Footer.propTypes = {
-	footerLinks: PropTypes.object
+	footerLinks: PropTypes.shape({
+		linkedInLink: PropTypes.string,
+		linkedInIcon: PropTypes.string,
+		githubLink: PropTypes.string,
+		githubIcon: PropTypes.string,
+		mailLink: PropTypes.string,
+		mailIcon: PropTypes.string
+	})
 };
 export default Footer;

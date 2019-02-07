@@ -46,6 +46,8 @@ class Header extends React.Component {
 				<button
 					className="hamburger-button"
 					onClick={this.props.toggleMobileMenu}
+					aria-hidden="true"
+					aria-label="mobile-menu-button"
 				>
 					<i className="fa fa-bars fa-3x" />
 				</button>
