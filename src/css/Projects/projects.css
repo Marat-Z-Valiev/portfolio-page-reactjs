@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
-.projects-header h2 {
+.projects-section h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 40px 20px;
-  padding: 30px;
 }
 .projects {
   text-align: center;
   background: #f5f5f5;
   padding-top: 50px;
+}
+.projects-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 40px 20px;
+  padding: 30px;
 }
 @media (max-width: 767px) {
   .grid-container {

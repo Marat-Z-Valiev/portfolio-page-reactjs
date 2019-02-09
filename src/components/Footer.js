@@ -30,54 +30,59 @@ class Footer extends React.Component {
 		} = this.props.footerLinks;
 
 		return (
-			<div id="contact" className="contact">
-				<h2>Contact</h2>
-				<div className="icons">
-					<a
-						className="icon-btn linkedin-icon"
-						href={linkedInLink}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<i className={linkedInIcon} aria-label="Link to linkedIn profile" />
-					</a>
-					<a
-						className="icon-btn github-icon"
-						href={githubLink}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<i className={githubIcon} aria-label="Link to GitHub profile" />
-					</a>
-					<a
-						className="icon-btn mail-icon"
-						href={mailLink}
-						rel="noopener noreferrer"
-					>
-						<i className={mailIcon} aria-label="Link to send email" />
-					</a>
-				</div>
-				<div className="footer">
-					<p className="copyright">
-						COPYRIGHT ©<span id="currentYear" />
-					</p>
-					<p className="footer-text">
+			<section>
+				<div id="contact" className="contact-section">
+					<h2>Contact</h2>
+					<div className="icons">
 						<a
-							className="github-link"
-							href="https://github.com/Marat-Z-Valiev/Marat-Z-Valiev.github.io"
+							className="icon-btn linkedin-icon"
+							href={linkedInLink}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							View the Github repository for this project.
+							<i
+								className={linkedInIcon}
+								aria-label="Link to linkedIn profile"
+							/>
 						</a>
-					</p>
+						<a
+							className="icon-btn github-icon"
+							href={githubLink}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i className={githubIcon} aria-label="Link to GitHub profile" />
+						</a>
+						<a
+							className="icon-btn mail-icon"
+							href={mailLink}
+							rel="noopener noreferrer"
+						>
+							<i className={mailIcon} aria-label="Link to send email" />
+						</a>
+					</div>
+					<div className="footer">
+						<p className="copyright">
+							COPYRIGHT ©<span id="currentYear" />
+						</p>
+						<p className="footer-text">
+							<a
+								className="github-link"
+								href="https://github.com/Marat-Z-Valiev/Marat-Z-Valiev.github.io"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								View the Github repository for this project.
+							</a>
+						</p>
+					</div>
+					<i
+						onClick={this.scrollToTop}
+						className="fa fa-arrow-circle-up fa-4x scrollToTop"
+						aria-label="Button to scroll to top"
+					/>
 				</div>
-				<i
-					onClick={this.scrollToTop}
-					className="fa fa-arrow-circle-up fa-4x scrollToTop"
-					aria-label="Button to scroll to top"
-				/>
-			</div>
+			</section>
 		);
 	}
 }

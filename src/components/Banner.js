@@ -3,8 +3,8 @@ import "../css/Banner/banner.css";
 
 const Banner = props => (
 	<section>
-		<div className="top-section" id="home">
-			<div className="welcome">
+		<div className="banner-section" id="home">
+			<div className="welcome-text">
 				<h2>Portfolio</h2>
 				<i className="fa fa-code" aria-hidden="true" />
 			</div>

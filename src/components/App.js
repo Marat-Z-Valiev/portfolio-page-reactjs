@@ -22,7 +22,7 @@ class App extends React.Component {
 			<div>
 				<Header toggleMobileMenu={this.toggleMobileMenu} />
 				<MobileMenu
-					visible={this.state.isMobileMenuVisible}
+					isMobileMenuVisible={this.state.isMobileMenuVisible}
 					closeMenu={this.closeMenu}
 				/>
 				<Banner />

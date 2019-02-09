@@ -4,7 +4,7 @@ import profileImage from "../css/images/profile_photo.jpg";
 
 const About = props => (
 	<section>
-		<div id="about" className="about-container">
+		<div id="about" className="about-section">
 			<h2 className="about-title">About</h2>
 			<div className="about-text">
 				<p>Hello and welcome to my portfolio page!</p>

@@ -10,7 +10,7 @@ class MobileMenu extends React.Component {
 	};
 
 	render() {
-		const openClass = this.props.visible ? "open" : "";
+		const openClass = this.props.isMobileMenuVisible ? "open" : "";
 		return (
 			<nav className={`mobile-menu ${openClass}`}>
 				<ul className="nav-list-mobile">

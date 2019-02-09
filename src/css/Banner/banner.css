@@ -1,12 +1,12 @@
-.top-section {
+.banner-section {
   background: url("../images/Background_image.jpg") no-repeat center center / cover fixed;
   height: 560px;
   position: relative;
 }
-.top-section .welcome {
+.banner-section .welcome-text {
   text-align: center;
 }
-.top-section h2 {
+.banner-section h2 {
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 50px;
@@ -14,6 +14,6 @@
   padding-top: 180px;
   font-size: 2rem;
 }
-.top-section .fa-code {
+.banner-section .fa-code {
   font-size: 4.5em;
 }
