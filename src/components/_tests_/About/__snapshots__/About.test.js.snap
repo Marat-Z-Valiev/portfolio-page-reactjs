@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="about-section"
+        id="about"
+      >
+        <h2
+          className="about-title"
+        >
+          About
+        </h2>
+        <div
+          className="about-text"
+        >
+          <p>
+            Hello and welcome to my portfolio page!
+          </p>
+          <p>
+            I've been always fascinated by the world of web development. I'm currently learning about front-end development
+          </p>
+        </div>
+        <img
+          alt="profile"
+          className="img-round"
+          src="profile_photo.jpg"
+        />
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="about-title"
+          >
+            About
+          </h2>,
+          <div
+            className="about-text"
+          >
+            <p>
+              Hello and welcome to my portfolio page!
+            </p>
+            <p>
+              I've been always fascinated by the world of web development. I'm currently learning about front-end development
+            </p>
+          </div>,
+          <img
+            alt="profile"
+            className="img-round"
+            src="profile_photo.jpg"
+          />,
+        ],
+        "className": "about-section",
+        "id": "about",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About",
+            "className": "about-title",
+          },
+          "ref": null,
+          "rendered": "About",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Hello and welcome to my portfolio page!
+              </p>,
+              <p>
+                I've been always fascinated by the world of web development. I'm currently learning about front-end development
+              </p>,
+            ],
+            "className": "about-text",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hello and welcome to my portfolio page!",
+              },
+              "ref": null,
+              "rendered": "Hello and welcome to my portfolio page!",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I've been always fascinated by the world of web development. I'm currently learning about front-end development",
+              },
+              "ref": null,
+              "rendered": "I've been always fascinated by the world of web development. I'm currently learning about front-end development",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "profile",
+            "className": "img-round",
+            "src": "profile_photo.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="about-section"
+          id="about"
+        >
+          <h2
+            className="about-title"
+          >
+            About
+          </h2>
+          <div
+            className="about-text"
+          >
+            <p>
+              Hello and welcome to my portfolio page!
+            </p>
+            <p>
+              I've been always fascinated by the world of web development. I'm currently learning about front-end development
+            </p>
+          </div>
+          <img
+            alt="profile"
+            className="img-round"
+            src="profile_photo.jpg"
+          />
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="about-title"
+            >
+              About
+            </h2>,
+            <div
+              className="about-text"
+            >
+              <p>
+                Hello and welcome to my portfolio page!
+              </p>
+              <p>
+                I've been always fascinated by the world of web development. I'm currently learning about front-end development
+              </p>
+            </div>,
+            <img
+              alt="profile"
+              className="img-round"
+              src="profile_photo.jpg"
+            />,
+          ],
+          "className": "about-section",
+          "id": "about",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About",
+              "className": "about-title",
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Hello and welcome to my portfolio page!
+                </p>,
+                <p>
+                  I've been always fascinated by the world of web development. I'm currently learning about front-end development
+                </p>,
+              ],
+              "className": "about-text",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hello and welcome to my portfolio page!",
+                },
+                "ref": null,
+                "rendered": "Hello and welcome to my portfolio page!",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I've been always fascinated by the world of web development. I'm currently learning about front-end development",
+                },
+                "ref": null,
+                "rendered": "I've been always fascinated by the world of web development. I'm currently learning about front-end development",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "profile",
+              "className": "img-round",
+              "src": "profile_photo.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
