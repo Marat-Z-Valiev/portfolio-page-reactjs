@@ -1,25 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {animateScroll as scroll} from "react-scroll";
-import "../footerLinks";
 import "../css/Footer/footer.css";
 
 class Footer extends React.Component {
-	displayCurrentYear() {
-		document.getElementById(
-			"currentYear"
-		).textContent = new Date().getFullYear();
-	}
-
-	componentDidMount() {
-		this.displayCurrentYear();
-	}
-
 	scrollToTop = () => {
 		scroll.scrollToTop();
 	};
 
 	render() {
+		const currentYear = new Date().getFullYear();
 		const {
 			linkedInLink,
 			linkedInIcon,
@@ -38,8 +28,7 @@ class Footer extends React.Component {
 							className="icon-btn linkedin-icon"
 							href={linkedInLink}
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<i
 								className={linkedInIcon}
 								aria-label="Link to linkedIn profile"
@@ -49,29 +38,26 @@ class Footer extends React.Component {
 							className="icon-btn github-icon"
 							href={githubLink}
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<i className={githubIcon} aria-label="Link to GitHub profile" />
 						</a>
 						<a
 							className="icon-btn mail-icon"
 							href={mailLink}
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<i className={mailIcon} aria-label="Link to send email" />
 						</a>
 					</div>
 					<div className="footer">
 						<p className="copyright">
-							COPYRIGHT ©<span id="currentYear" />
+							COPYRIGHT ©<span id="currentYear">{currentYear}</span>
 						</p>
 						<p className="footer-text">
 							<a
 								className="github-link"
 								href="https://github.com/Marat-Z-Valiev/Marat-Z-Valiev.github.io"
 								target="_blank"
-								rel="noopener noreferrer"
-							>
+								rel="noopener noreferrer">
 								View the Github repository for this project.
 							</a>
 						</p>
@@ -95,6 +81,11 @@ Footer.propTypes = {
 		githubIcon: PropTypes.string,
 		mailLink: PropTypes.string,
 		mailIcon: PropTypes.string
-	})
+	}),
+	displayCurrentYear: PropTypes.func
+};
+
+Footer.defaultProps = {
+	currentYear: 2019
 };
 export default Footer;

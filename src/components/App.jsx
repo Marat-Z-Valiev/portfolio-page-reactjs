@@ -28,7 +28,10 @@ class App extends React.Component {
 				<Banner />
 				<About />
 				<Projects />
-				<Footer footerLinks={footerLinks} />
+				<Footer
+					footerLinks={footerLinks}
+					displayCurrentYear={this.displayCurrentYear}
+				/>
 			</div>
 		);
 	}
