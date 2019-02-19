@@ -1,5 +1,5 @@
 import React from "react";
-import {render, shallow, mount} from "enzyme";
+import {mount} from "enzyme";
 
 import Footer from "../../Footer";
 
@@ -21,9 +21,10 @@ describe("Footer", () => {
 		expect(component).toMatchSnapshot();
 	});
 
-	// it("scrollToTop button should call function when clicked", () => {
-	// 	const mockFunction = jest.fn();
-	// 	component.find(".scrollToTop").simulate("click");
-	// 	expect(mockFunction).toHaveBeenCalled();
-	// });
+	it("scrollToTop button should call function when clicked", () => {
+		const spy = jest.spyOn(component.instance(), "scrollToTop");
+		component.instance().forceUpdate();
+		component.find(".scrollToTop").simulate("click");
+		expect(spy).toHaveBeenCalled();
+	});
 });

@@ -3,7 +3,6 @@
 exports[`Footer should render correctly 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Footer
-    currentYear={2019}
     footerLinks={
       Object {
         "githubIcon": "fa fa-github",
@@ -51,7 +50,6 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "currentYear": 2019,
               "footerLinks": Object {
                 "githubIcon": "fa fa-github",
                 "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -66,7 +64,6 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
-              "currentYear": 2019,
               "footerLinks": Object {
                 "githubIcon": "fa fa-github",
                 "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -165,9 +162,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -233,7 +228,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -262,7 +256,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -296,7 +289,6 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "currentYear": 2019,
                     "footerLinks": Object {
                       "githubIcon": "fa fa-github",
                       "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -369,9 +361,7 @@ ReactWrapper {
                         class="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>
@@ -428,7 +418,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -455,7 +444,6 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "currentYear": 2019,
               "footerLinks": Object {
                 "githubIcon": "fa fa-github",
                 "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -554,9 +542,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -622,7 +608,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -651,7 +636,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -685,7 +669,6 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "currentYear": 2019,
                     "footerLinks": Object {
                       "githubIcon": "fa fa-github",
                       "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -758,9 +741,7 @@ ReactWrapper {
                         class="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>
@@ -817,7 +798,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -850,7 +830,6 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -866,7 +845,6 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -1438,22 +1416,18 @@ ReactWrapper {
                         "lastEffect": null,
                         "memoizedProps": Object {
                           "children": 2019,
-                          "id": "currentYear",
                         },
                         "memoizedState": null,
                         "mode": 0,
                         "nextEffect": null,
                         "pendingProps": Object {
                           "children": 2019,
-                          "id": "currentYear",
                         },
                         "ref": null,
                         "return": [Circular],
                         "selfBaseDuration": 0,
                         "sibling": null,
-                        "stateNode": <span
-                          id="currentYear"
-                        >
+                        "stateNode": <span>
                           2019
                         </span>,
                         "tag": 5,
@@ -1479,9 +1453,7 @@ ReactWrapper {
                     "memoizedProps": Object {
                       "children": Array [
                         "COPYRIGHT ©",
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>,
                       ],
@@ -1493,9 +1465,7 @@ ReactWrapper {
                     "pendingProps": Object {
                       "children": Array [
                         "COPYRIGHT ©",
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>,
                       ],
@@ -1629,9 +1599,7 @@ ReactWrapper {
                       class="copyright"
                     >
                       COPYRIGHT ©
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>
                     </p>,
@@ -1655,9 +1623,7 @@ ReactWrapper {
                         className="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>,
@@ -1685,9 +1651,7 @@ ReactWrapper {
                         className="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>,
@@ -1763,9 +1727,7 @@ ReactWrapper {
                       class="copyright"
                     >
                       COPYRIGHT ©
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>
                     </p>
@@ -1893,9 +1855,7 @@ ReactWrapper {
                     className="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -1972,9 +1932,7 @@ ReactWrapper {
                     className="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -2054,9 +2012,7 @@ ReactWrapper {
                   class="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -2143,9 +2099,7 @@ ReactWrapper {
                   className="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -2223,9 +2177,7 @@ ReactWrapper {
                   className="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -2304,9 +2256,7 @@ ReactWrapper {
                   class="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -2344,7 +2294,6 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "currentYear": 2019,
           "footerLinks": Object {
             "githubIcon": "fa fa-github",
             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2358,7 +2307,6 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
-          "currentYear": 2019,
           "footerLinks": Object {
             "githubIcon": "fa fa-github",
             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2391,7 +2339,6 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "currentYear": 2019,
               "footerLinks": Object {
                 "githubIcon": "fa fa-github",
                 "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2406,7 +2353,6 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
-              "currentYear": 2019,
               "footerLinks": Object {
                 "githubIcon": "fa fa-github",
                 "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2505,9 +2451,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -2573,7 +2517,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2602,7 +2545,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2636,7 +2578,6 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "currentYear": 2019,
                     "footerLinks": Object {
                       "githubIcon": "fa fa-github",
                       "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2709,9 +2650,7 @@ ReactWrapper {
                         class="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>
@@ -2768,7 +2707,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2795,7 +2733,6 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "currentYear": 2019,
               "footerLinks": Object {
                 "githubIcon": "fa fa-github",
                 "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2894,9 +2831,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -2962,7 +2897,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -2991,7 +2925,6 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "currentYear": 2019,
                           "footerLinks": Object {
                             "githubIcon": "fa fa-github",
                             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3025,7 +2958,6 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "currentYear": 2019,
                     "footerLinks": Object {
                       "githubIcon": "fa fa-github",
                       "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3098,9 +3030,7 @@ ReactWrapper {
                         class="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>
@@ -3157,7 +3087,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3190,7 +3119,6 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3206,7 +3134,6 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3240,7 +3167,6 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
-        "currentYear": 2019,
         "footerLinks": Object {
           "githubIcon": "fa fa-github",
           "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3263,7 +3189,6 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "currentYear": 2019,
       "footerLinks": Object {
         "githubIcon": "fa fa-github",
         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -3326,9 +3251,7 @@ ReactWrapper {
               class="copyright"
             >
               COPYRIGHT ©
-              <span
-                id="currentYear"
-              >
+              <span>
                 2019
               </span>
             </p>
@@ -3404,9 +3327,7 @@ ReactWrapper {
               className="copyright"
             >
               COPYRIGHT ©
-              <span
-                id="currentYear"
-              >
+              <span>
                 2019
               </span>
             </p>
@@ -3483,9 +3404,7 @@ ReactWrapper {
                 class="copyright"
               >
                 COPYRIGHT ©
-                <span
-                  id="currentYear"
-                >
+                <span>
                   2019
                 </span>
               </p>
@@ -3557,9 +3476,7 @@ ReactWrapper {
                   className="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -3827,9 +3744,7 @@ ReactWrapper {
                   class="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -3854,9 +3769,7 @@ ReactWrapper {
                     className="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>,
@@ -3882,9 +3795,7 @@ ReactWrapper {
                     class="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>,
@@ -3893,9 +3804,7 @@ ReactWrapper {
                   "props": Object {
                     "children": Array [
                       "COPYRIGHT ©",
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>,
                     ],
@@ -3905,16 +3814,13 @@ ReactWrapper {
                   "rendered": Array [
                     "COPYRIGHT ©",
                     Object {
-                      "instance": <span
-                        id="currentYear"
-                      >
+                      "instance": <span>
                         2019
                       </span>,
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
                         "children": 2019,
-                        "id": "currentYear",
                       },
                       "ref": null,
                       "rendered": Array [
@@ -4037,7 +3943,6 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4052,7 +3957,6 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4151,9 +4055,7 @@ ReactWrapper {
                             class="copyright"
                           >
                             COPYRIGHT ©
-                            <span
-                              id="currentYear"
-                            >
+                            <span>
                               2019
                             </span>
                           </p>
@@ -4219,7 +4121,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4248,7 +4149,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4282,7 +4182,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4355,9 +4254,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -4414,7 +4311,6 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "currentYear": 2019,
                         "footerLinks": Object {
                           "githubIcon": "fa fa-github",
                           "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4441,7 +4337,6 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4540,9 +4435,7 @@ ReactWrapper {
                             class="copyright"
                           >
                             COPYRIGHT ©
-                            <span
-                              id="currentYear"
-                            >
+                            <span>
                               2019
                             </span>
                           </p>
@@ -4608,7 +4501,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4637,7 +4529,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4671,7 +4562,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4744,9 +4634,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -4803,7 +4691,6 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "currentYear": 2019,
                         "footerLinks": Object {
                           "githubIcon": "fa fa-github",
                           "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4836,7 +4723,6 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "currentYear": 2019,
                   "footerLinks": Object {
                     "githubIcon": "fa fa-github",
                     "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -4852,7 +4738,6 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "currentYear": 2019,
                   "footerLinks": Object {
                     "githubIcon": "fa fa-github",
                     "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -5424,22 +5309,18 @@ ReactWrapper {
                           "lastEffect": null,
                           "memoizedProps": Object {
                             "children": 2019,
-                            "id": "currentYear",
                           },
                           "memoizedState": null,
                           "mode": 0,
                           "nextEffect": null,
                           "pendingProps": Object {
                             "children": 2019,
-                            "id": "currentYear",
                           },
                           "ref": null,
                           "return": [Circular],
                           "selfBaseDuration": 0,
                           "sibling": null,
-                          "stateNode": <span
-                            id="currentYear"
-                          >
+                          "stateNode": <span>
                             2019
                           </span>,
                           "tag": 5,
@@ -5465,9 +5346,7 @@ ReactWrapper {
                       "memoizedProps": Object {
                         "children": Array [
                           "COPYRIGHT ©",
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>,
                         ],
@@ -5479,9 +5358,7 @@ ReactWrapper {
                       "pendingProps": Object {
                         "children": Array [
                           "COPYRIGHT ©",
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>,
                         ],
@@ -5615,9 +5492,7 @@ ReactWrapper {
                         class="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>,
@@ -5641,9 +5516,7 @@ ReactWrapper {
                           className="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>,
@@ -5671,9 +5544,7 @@ ReactWrapper {
                           className="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>,
@@ -5749,9 +5620,7 @@ ReactWrapper {
                         class="copyright"
                       >
                         COPYRIGHT ©
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>
                       </p>
@@ -5879,9 +5748,7 @@ ReactWrapper {
                       className="copyright"
                     >
                       COPYRIGHT ©
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>
                     </p>
@@ -5958,9 +5825,7 @@ ReactWrapper {
                       className="copyright"
                     >
                       COPYRIGHT ©
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>
                     </p>
@@ -6040,9 +5905,7 @@ ReactWrapper {
                     class="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -6129,9 +5992,7 @@ ReactWrapper {
                     className="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -6209,9 +6070,7 @@ ReactWrapper {
                     className="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -6290,9 +6149,7 @@ ReactWrapper {
                     class="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -6330,7 +6187,6 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "currentYear": 2019,
             "footerLinks": Object {
               "githubIcon": "fa fa-github",
               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6344,7 +6200,6 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "currentYear": 2019,
             "footerLinks": Object {
               "githubIcon": "fa fa-github",
               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6377,7 +6232,6 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6392,7 +6246,6 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6491,9 +6344,7 @@ ReactWrapper {
                             class="copyright"
                           >
                             COPYRIGHT ©
-                            <span
-                              id="currentYear"
-                            >
+                            <span>
                               2019
                             </span>
                           </p>
@@ -6559,7 +6410,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6588,7 +6438,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6622,7 +6471,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6695,9 +6543,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -6754,7 +6600,6 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "currentYear": 2019,
                         "footerLinks": Object {
                           "githubIcon": "fa fa-github",
                           "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6781,7 +6626,6 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "currentYear": 2019,
                 "footerLinks": Object {
                   "githubIcon": "fa fa-github",
                   "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6880,9 +6724,7 @@ ReactWrapper {
                             class="copyright"
                           >
                             COPYRIGHT ©
-                            <span
-                              id="currentYear"
-                            >
+                            <span>
                               2019
                             </span>
                           </p>
@@ -6948,7 +6790,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -6977,7 +6818,6 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "currentYear": 2019,
                             "footerLinks": Object {
                               "githubIcon": "fa fa-github",
                               "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7011,7 +6851,6 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "currentYear": 2019,
                       "footerLinks": Object {
                         "githubIcon": "fa fa-github",
                         "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7084,9 +6923,7 @@ ReactWrapper {
                           class="copyright"
                         >
                           COPYRIGHT ©
-                          <span
-                            id="currentYear"
-                          >
+                          <span>
                             2019
                           </span>
                         </p>
@@ -7143,7 +6980,6 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "currentYear": 2019,
                         "footerLinks": Object {
                           "githubIcon": "fa fa-github",
                           "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7176,7 +7012,6 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "currentYear": 2019,
                   "footerLinks": Object {
                     "githubIcon": "fa fa-github",
                     "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7192,7 +7027,6 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "currentYear": 2019,
                   "footerLinks": Object {
                     "githubIcon": "fa fa-github",
                     "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7226,7 +7060,6 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "currentYear": 2019,
           "footerLinks": Object {
             "githubIcon": "fa fa-github",
             "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7249,7 +7082,6 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "currentYear": 2019,
         "footerLinks": Object {
           "githubIcon": "fa fa-github",
           "githubLink": "https://github.com/Marat-Z-Valiev",
@@ -7312,9 +7144,7 @@ ReactWrapper {
                 class="copyright"
               >
                 COPYRIGHT ©
-                <span
-                  id="currentYear"
-                >
+                <span>
                   2019
                 </span>
               </p>
@@ -7390,9 +7220,7 @@ ReactWrapper {
                 className="copyright"
               >
                 COPYRIGHT ©
-                <span
-                  id="currentYear"
-                >
+                <span>
                   2019
                 </span>
               </p>
@@ -7469,9 +7297,7 @@ ReactWrapper {
                   class="copyright"
                 >
                   COPYRIGHT ©
-                  <span
-                    id="currentYear"
-                  >
+                  <span>
                     2019
                   </span>
                 </p>
@@ -7543,9 +7369,7 @@ ReactWrapper {
                     className="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -7813,9 +7637,7 @@ ReactWrapper {
                     class="copyright"
                   >
                     COPYRIGHT ©
-                    <span
-                      id="currentYear"
-                    >
+                    <span>
                       2019
                     </span>
                   </p>
@@ -7840,9 +7662,7 @@ ReactWrapper {
                       className="copyright"
                     >
                       COPYRIGHT ©
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>
                     </p>,
@@ -7868,9 +7688,7 @@ ReactWrapper {
                       class="copyright"
                     >
                       COPYRIGHT ©
-                      <span
-                        id="currentYear"
-                      >
+                      <span>
                         2019
                       </span>
                     </p>,
@@ -7879,9 +7697,7 @@ ReactWrapper {
                     "props": Object {
                       "children": Array [
                         "COPYRIGHT ©",
-                        <span
-                          id="currentYear"
-                        >
+                        <span>
                           2019
                         </span>,
                       ],
@@ -7891,16 +7707,13 @@ ReactWrapper {
                     "rendered": Array [
                       "COPYRIGHT ©",
                       Object {
-                        "instance": <span
-                          id="currentYear"
-                        >
+                        "instance": <span>
                           2019
                         </span>,
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
                           "children": 2019,
-                          "id": "currentYear",
                         },
                         "ref": null,
                         "rendered": Array [

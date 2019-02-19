@@ -50,7 +50,7 @@ class Footer extends React.Component {
 					</div>
 					<div className="footer">
 						<p className="copyright">
-							COPYRIGHT ©<span id="currentYear">{currentYear}</span>
+							COPYRIGHT ©<span>{currentYear}</span>
 						</p>
 						<p className="footer-text">
 							<a
@@ -81,11 +81,7 @@ Footer.propTypes = {
 		githubIcon: PropTypes.string,
 		mailLink: PropTypes.string,
 		mailIcon: PropTypes.string
-	}),
-	displayCurrentYear: PropTypes.func
+	})
 };
 
-Footer.defaultProps = {
-	currentYear: 2019
-};
 export default Footer;
