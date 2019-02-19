@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Marat Valiev
+        </h1>,
+        <button
+          aria-hidden="true"
+          aria-label="mobile-menu-button"
+          className="hamburger-button"
+        >
+          <i
+            className="fa fa-bars fa-3x"
+          />
+        </button>,
+        <ul
+          className="nav-list"
+        >
+          <HeaderLink
+            label="Home"
+            link="home"
+          />
+          <HeaderLink
+            label="About"
+            link="about"
+          />
+          <HeaderLink
+            label="Projects"
+            link="projects"
+          />
+          <HeaderLink
+            label="Contact"
+            link="contact"
+          />
+        </ul>,
+      ],
+      "className": "navbar ",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Marat Valiev",
+        },
+        "ref": null,
+        "rendered": "Marat Valiev",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-hidden": "true",
+          "aria-label": "mobile-menu-button",
+          "children": <i
+            className="fa fa-bars fa-3x"
+          />,
+          "className": "hamburger-button",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "fa fa-bars fa-3x",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <HeaderLink
+              label="Home"
+              link="home"
+            />,
+            <HeaderLink
+              label="About"
+              link="about"
+            />,
+            <HeaderLink
+              label="Projects"
+              link="projects"
+            />,
+            <HeaderLink
+              label="Contact"
+              link="contact"
+            />,
+          ],
+          "className": "nav-list",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "label": "Home",
+              "link": "home",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "label": "About",
+              "link": "about",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "label": "Projects",
+              "link": "projects",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "label": "Contact",
+              "link": "contact",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Marat Valiev
+          </h1>,
+          <button
+            aria-hidden="true"
+            aria-label="mobile-menu-button"
+            className="hamburger-button"
+          >
+            <i
+              className="fa fa-bars fa-3x"
+            />
+          </button>,
+          <ul
+            className="nav-list"
+          >
+            <HeaderLink
+              label="Home"
+              link="home"
+            />
+            <HeaderLink
+              label="About"
+              link="about"
+            />
+            <HeaderLink
+              label="Projects"
+              link="projects"
+            />
+            <HeaderLink
+              label="Contact"
+              link="contact"
+            />
+          </ul>,
+        ],
+        "className": "navbar ",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Marat Valiev",
+          },
+          "ref": null,
+          "rendered": "Marat Valiev",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-hidden": "true",
+            "aria-label": "mobile-menu-button",
+            "children": <i
+              className="fa fa-bars fa-3x"
+            />,
+            "className": "hamburger-button",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fa fa-bars fa-3x",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <HeaderLink
+                label="Home"
+                link="home"
+              />,
+              <HeaderLink
+                label="About"
+                link="about"
+              />,
+              <HeaderLink
+                label="Projects"
+                link="projects"
+              />,
+              <HeaderLink
+                label="Contact"
+                link="contact"
+              />,
+            ],
+            "className": "nav-list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "label": "Home",
+                "link": "home",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "label": "About",
+                "link": "about",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "label": "Projects",
+                "link": "projects",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "label": "Contact",
+                "link": "contact",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

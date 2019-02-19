@@ -1,0 +1,1170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Projects />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="projects"
+        id="projects"
+      >
+        <h2>
+          Projects
+        </h2>
+        <div
+          className="projects-grid-container"
+        >
+          <ProjectItem
+            projects={
+              Object {
+                "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Random_Quote_Machine.jpg",
+                "name": "Random Quote Machine",
+                "tools": "Bootstrap, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Local_weather_page.jpg",
+                "name": "Local Weather Page",
+                "tools": "Bootstrap, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Wikipedia_viewer.jpg",
+                "name": "Wikipedia Viewer",
+                "tools": "Bootstrap, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Twitch_tv.jpg",
+                "name": "Twitch.tv",
+                "tools": "Flexbox, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "allows the user to perform simple calculations. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Javascript_Calculator.jpg",
+                "name": "Javascript Calculator",
+                "tools": "Grid, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Pomodoro_Timer.jpg",
+                "name": "Pomodoro Timer",
+                "tools": "Grid, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Tic-Tac-Toe.jpg",
+                "name": "Tic Tac Toe",
+                "tools": "Grid, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+              }
+            }
+          />
+          <ProjectItem
+            projects={
+              Object {
+                "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                "githubIcon": "fa fa-github fa-2x",
+                "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                "globeIcon": "fa fa-globe fa-2x",
+                "image": "/images/Simon_game.jpg",
+                "name": "Simon Game",
+                "tools": "Grid, Javascript, jQuery",
+                "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+              }
+            }
+          />
+        </div>
+      </div>,
+      "className": "projects-section",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Projects
+          </h2>,
+          <div
+            className="projects-grid-container"
+          >
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Random_Quote_Machine.jpg",
+                  "name": "Random Quote Machine",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Local_weather_page.jpg",
+                  "name": "Local Weather Page",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Wikipedia_viewer.jpg",
+                  "name": "Wikipedia Viewer",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Twitch_tv.jpg",
+                  "name": "Twitch.tv",
+                  "tools": "Flexbox, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "allows the user to perform simple calculations. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Javascript_Calculator.jpg",
+                  "name": "Javascript Calculator",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Pomodoro_Timer.jpg",
+                  "name": "Pomodoro Timer",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Tic-Tac-Toe.jpg",
+                  "name": "Tic Tac Toe",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Simon_game.jpg",
+                  "name": "Simon Game",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                }
+              }
+            />
+          </div>,
+        ],
+        "className": "projects",
+        "id": "projects",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Projects",
+          },
+          "ref": null,
+          "rendered": "Projects",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Random_Quote_Machine.jpg",
+                    "name": "Random Quote Machine",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Local_weather_page.jpg",
+                    "name": "Local Weather Page",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Wikipedia_viewer.jpg",
+                    "name": "Wikipedia Viewer",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Twitch_tv.jpg",
+                    "name": "Twitch.tv",
+                    "tools": "Flexbox, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "allows the user to perform simple calculations. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Javascript_Calculator.jpg",
+                    "name": "Javascript Calculator",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Pomodoro_Timer.jpg",
+                    "name": "Pomodoro Timer",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Tic-Tac-Toe.jpg",
+                    "name": "Tic Tac Toe",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                  }
+                }
+              />,
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Simon_game.jpg",
+                    "name": "Simon Game",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                  }
+                }
+              />,
+            ],
+            "className": "projects-grid-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "project1",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Random_Quote_Machine.jpg",
+                  "name": "Random Quote Machine",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project2",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Local_weather_page.jpg",
+                  "name": "Local Weather Page",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project3",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Wikipedia_viewer.jpg",
+                  "name": "Wikipedia Viewer",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project4",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Twitch_tv.jpg",
+                  "name": "Twitch.tv",
+                  "tools": "Flexbox, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project5",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "allows the user to perform simple calculations. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Javascript_Calculator.jpg",
+                  "name": "Javascript Calculator",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project6",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Pomodoro_Timer.jpg",
+                  "name": "Pomodoro Timer",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project7",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Tic-Tac-Toe.jpg",
+                  "name": "Tic Tac Toe",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "project8",
+              "nodeType": "class",
+              "props": Object {
+                "projects": Object {
+                  "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Simon_game.jpg",
+                  "name": "Simon Game",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="projects"
+          id="projects"
+        >
+          <h2>
+            Projects
+          </h2>
+          <div
+            className="projects-grid-container"
+          >
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Random_Quote_Machine.jpg",
+                  "name": "Random Quote Machine",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Local_weather_page.jpg",
+                  "name": "Local Weather Page",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Wikipedia_viewer.jpg",
+                  "name": "Wikipedia Viewer",
+                  "tools": "Bootstrap, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Twitch_tv.jpg",
+                  "name": "Twitch.tv",
+                  "tools": "Flexbox, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "allows the user to perform simple calculations. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Javascript_Calculator.jpg",
+                  "name": "Javascript Calculator",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Pomodoro_Timer.jpg",
+                  "name": "Pomodoro Timer",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Tic-Tac-Toe.jpg",
+                  "name": "Tic Tac Toe",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                }
+              }
+            />
+            <ProjectItem
+              projects={
+                Object {
+                  "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                  "githubIcon": "fa fa-github fa-2x",
+                  "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                  "globeIcon": "fa fa-globe fa-2x",
+                  "image": "/images/Simon_game.jpg",
+                  "name": "Simon Game",
+                  "tools": "Grid, Javascript, jQuery",
+                  "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                }
+              }
+            />
+          </div>
+        </div>,
+        "className": "projects-section",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Projects
+            </h2>,
+            <div
+              className="projects-grid-container"
+            >
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Random_Quote_Machine.jpg",
+                    "name": "Random Quote Machine",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Local_weather_page.jpg",
+                    "name": "Local Weather Page",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Wikipedia_viewer.jpg",
+                    "name": "Wikipedia Viewer",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Twitch_tv.jpg",
+                    "name": "Twitch.tv",
+                    "tools": "Flexbox, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "allows the user to perform simple calculations. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Javascript_Calculator.jpg",
+                    "name": "Javascript Calculator",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Pomodoro_Timer.jpg",
+                    "name": "Pomodoro Timer",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Tic-Tac-Toe.jpg",
+                    "name": "Tic Tac Toe",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                  }
+                }
+              />
+              <ProjectItem
+                projects={
+                  Object {
+                    "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Simon_game.jpg",
+                    "name": "Simon Game",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                  }
+                }
+              />
+            </div>,
+          ],
+          "className": "projects",
+          "id": "projects",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Projects",
+            },
+            "ref": null,
+            "rendered": "Projects",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Random_Quote_Machine.jpg",
+                      "name": "Random Quote Machine",
+                      "tools": "Bootstrap, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Local_weather_page.jpg",
+                      "name": "Local Weather Page",
+                      "tools": "Bootstrap, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Wikipedia_viewer.jpg",
+                      "name": "Wikipedia Viewer",
+                      "tools": "Bootstrap, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Twitch_tv.jpg",
+                      "name": "Twitch.tv",
+                      "tools": "Flexbox, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "allows the user to perform simple calculations. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Javascript_Calculator.jpg",
+                      "name": "Javascript Calculator",
+                      "tools": "Grid, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Pomodoro_Timer.jpg",
+                      "name": "Pomodoro Timer",
+                      "tools": "Grid, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Tic-Tac-Toe.jpg",
+                      "name": "Tic Tac Toe",
+                      "tools": "Grid, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                    }
+                  }
+                />,
+                <ProjectItem
+                  projects={
+                    Object {
+                      "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                      "githubIcon": "fa fa-github fa-2x",
+                      "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                      "globeIcon": "fa fa-globe fa-2x",
+                      "image": "/images/Simon_game.jpg",
+                      "name": "Simon Game",
+                      "tools": "Grid, Javascript, jQuery",
+                      "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                    }
+                  }
+                />,
+              ],
+              "className": "projects-grid-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "project1",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "project is based on third-party API which allows the user to select a randomly generated quote and share it on Twitter. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Random_quote_machine",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Random_Quote_Machine.jpg",
+                    "name": "Random Quote Machine",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Random_quote_machine",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project2",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "shows current weather using geolocation and FreeCodeCamp API. It includes background image change based on weather conditions and also allows the user to switch from °C to F. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Local_weather_page",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Local_weather_page.jpg",
+                    "name": "Local Weather Page",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Local_weather_page/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project3",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "allows the user to search for Wikipedia articles using Wikipedia API",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Wikiviewer",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Wikipedia_viewer.jpg",
+                    "name": "Wikipedia Viewer",
+                    "tools": "Bootstrap, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Wikiviewer/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project4",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "displays online/offline channels and also includes search channels functionality. Uses Twitch API. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Twitch_tv",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Twitch_tv.jpg",
+                    "name": "Twitch.tv",
+                    "tools": "Flexbox, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Twitch_tv/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project5",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "allows the user to perform simple calculations. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Javascript_Calculator",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Javascript_Calculator.jpg",
+                    "name": "Javascript Calculator",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Javascript_Calculator/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project6",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "is a simple timer that allows to increment and decrement session/break time and also reset it. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Pomodoro_Timer",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Pomodoro_Timer.jpg",
+                    "name": "Pomodoro Timer",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Pomodoro_Timer/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project7",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "is a game against the computer. The user can select a symbol at the beginning of the game. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Tic-Tac-Toe",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Tic-Tac-Toe.jpg",
+                    "name": "Tic Tac Toe",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Tic-Tac-Toe/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "project8",
+                "nodeType": "class",
+                "props": Object {
+                  "projects": Object {
+                    "description": "allows to play against the computer. The user should follow the combination of colors. Built using",
+                    "githubIcon": "fa fa-github fa-2x",
+                    "githubLink": "https://github.com/Marat-Z-Valiev/Simon-game",
+                    "globeIcon": "fa fa-globe fa-2x",
+                    "image": "/images/Simon_game.jpg",
+                    "name": "Simon Game",
+                    "tools": "Grid, Javascript, jQuery",
+                    "websiteLink": "https://marat-z-valiev.github.io/Simon-game/",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

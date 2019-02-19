@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectItem should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProjectItem
+    projects={
+      Object {
+        "description": "Test",
+        "githubIcon": "Test",
+        "githubLink": "Test",
+        "globeIcon": "Test",
+        "image": "Test",
+        "name": "Test",
+        "tools": "Test",
+        "websiteLink": "Test",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <hr
+          className="line"
+        />,
+        <h3>
+          Test
+        </h3>,
+        <hr
+          className="line"
+        />,
+        <div
+          className="project-description"
+        >
+          <p>
+            Test Test
+          </p>
+          <p>
+            <strong>
+              Test
+            </strong>
+          </p>
+        </div>,
+        <img
+          alt="Test"
+          className="portfolio-image img"
+          src="Test"
+        />,
+        <div
+          className="buttons"
+        >
+          <Button
+            icon="Test"
+            label="Website"
+            link="Test"
+          />
+          <Button
+            icon="Test"
+            label="Github"
+            link="Test"
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Test",
+        },
+        "ref": null,
+        "rendered": "Test",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Test Test
+            </p>,
+            <p>
+              <strong>
+                Test
+              </strong>
+            </p>,
+          ],
+          "className": "project-description",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test Test",
+            },
+            "ref": null,
+            "rendered": "Test Test",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <strong>
+                Test
+              </strong>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "strong",
+            },
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Test",
+          "className": "portfolio-image img",
+          "src": "Test",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Button
+              icon="Test"
+              label="Website"
+              link="Test"
+            />,
+            <Button
+              icon="Test"
+              label="Github"
+              link="Test"
+            />,
+          ],
+          "className": "buttons",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "icon": "Test",
+              "label": "Website",
+              "link": "Test",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "icon": "Test",
+              "label": "Github",
+              "link": "Test",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <hr
+            className="line"
+          />,
+          <h3>
+            Test
+          </h3>,
+          <hr
+            className="line"
+          />,
+          <div
+            className="project-description"
+          >
+            <p>
+              Test Test
+            </p>
+            <p>
+              <strong>
+                Test
+              </strong>
+            </p>
+          </div>,
+          <img
+            alt="Test"
+            className="portfolio-image img"
+            src="Test"
+          />,
+          <div
+            className="buttons"
+          >
+            <Button
+              icon="Test"
+              label="Website"
+              link="Test"
+            />
+            <Button
+              icon="Test"
+              label="Github"
+              link="Test"
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Test",
+          },
+          "ref": null,
+          "rendered": "Test",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Test Test
+              </p>,
+              <p>
+                <strong>
+                  Test
+                </strong>
+              </p>,
+            ],
+            "className": "project-description",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test Test",
+              },
+              "ref": null,
+              "rendered": "Test Test",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <strong>
+                  Test
+                </strong>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Test",
+                },
+                "ref": null,
+                "rendered": "Test",
+                "type": "strong",
+              },
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Test",
+            "className": "portfolio-image img",
+            "src": "Test",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Button
+                icon="Test"
+                label="Website"
+                link="Test"
+              />,
+              <Button
+                icon="Test"
+                label="Github"
+                link="Test"
+              />,
+            ],
+            "className": "buttons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "icon": "Test",
+                "label": "Website",
+                "link": "Test",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "icon": "Test",
+                "label": "Github",
+                "link": "Test",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

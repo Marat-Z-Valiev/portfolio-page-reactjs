@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileMenu should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MobileMenu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="nav-list-mobile"
+      >
+        <HeaderLink
+          closeMenu={[Function]}
+          label="Home"
+          link="home"
+        />
+        <HeaderLink
+          closeMenu={[Function]}
+          label="About"
+          link="about"
+        />
+        <HeaderLink
+          closeMenu={[Function]}
+          label="Projects"
+          link="projects"
+        />
+        <HeaderLink
+          closeMenu={[Function]}
+          label="Contact"
+          link="contact"
+        />
+      </ul>,
+      "className": "mobile-menu ",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HeaderLink
+            closeMenu={[Function]}
+            label="Home"
+            link="home"
+          />,
+          <HeaderLink
+            closeMenu={[Function]}
+            label="About"
+            link="about"
+          />,
+          <HeaderLink
+            closeMenu={[Function]}
+            label="Projects"
+            link="projects"
+          />,
+          <HeaderLink
+            closeMenu={[Function]}
+            label="Contact"
+            link="contact"
+          />,
+        ],
+        "className": "nav-list-mobile",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "closeMenu": [Function],
+            "label": "Home",
+            "link": "home",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "closeMenu": [Function],
+            "label": "About",
+            "link": "about",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "closeMenu": [Function],
+            "label": "Projects",
+            "link": "projects",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "closeMenu": [Function],
+            "label": "Contact",
+            "link": "contact",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="nav-list-mobile"
+        >
+          <HeaderLink
+            closeMenu={[Function]}
+            label="Home"
+            link="home"
+          />
+          <HeaderLink
+            closeMenu={[Function]}
+            label="About"
+            link="about"
+          />
+          <HeaderLink
+            closeMenu={[Function]}
+            label="Projects"
+            link="projects"
+          />
+          <HeaderLink
+            closeMenu={[Function]}
+            label="Contact"
+            link="contact"
+          />
+        </ul>,
+        "className": "mobile-menu ",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <HeaderLink
+              closeMenu={[Function]}
+              label="Home"
+              link="home"
+            />,
+            <HeaderLink
+              closeMenu={[Function]}
+              label="About"
+              link="about"
+            />,
+            <HeaderLink
+              closeMenu={[Function]}
+              label="Projects"
+              link="projects"
+            />,
+            <HeaderLink
+              closeMenu={[Function]}
+              label="Contact"
+              link="contact"
+            />,
+          ],
+          "className": "nav-list-mobile",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "closeMenu": [Function],
+              "label": "Home",
+              "link": "home",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "closeMenu": [Function],
+              "label": "About",
+              "link": "about",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "closeMenu": [Function],
+              "label": "Projects",
+              "link": "projects",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "closeMenu": [Function],
+              "label": "Contact",
+              "link": "contact",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
